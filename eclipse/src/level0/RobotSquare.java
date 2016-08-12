@@ -8,14 +8,14 @@ public class RobotSquare {
 		rob.penDown();
 		rob.setSpeed(350);
 		rob.setRandomPenColor();
-		for (int i = 0; i < 40; i = i + 1) {
+		for (int i = 0; i < 80; i = i + 1) {
 			
 			rob.move(200);
-			rob.turn(60);
+			rob.turn(600);
 
 			for (int j = 0; j < 4; j = j + 1) {
 				rob.move(200);
-				rob.turn(90);
+				rob.turn(900);
 			}
 		}
 	}

@@ -6,7 +6,7 @@ public class Potatoes {
 		// TODO Auto-generated method stub
 		for (int i = 1; i < 9; i = i + 1)
 		{
-			System.out.println(i+"potatoes");
+			///System.out.println(i+"potatoes");
 		}
 		
 	}
