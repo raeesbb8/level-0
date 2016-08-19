@@ -2,7 +2,7 @@ package level0;
 
 import org.jointheleague.graphical.robot.Robot;
 
-public class Square {
+public class square {
 	public static void main(String[] args) {
 		Robot rob = new Robot();
 		rob.penDown();
