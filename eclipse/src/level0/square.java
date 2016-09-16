@@ -11,11 +11,11 @@ public class square {
 		for (int i = 0; i < 40; i = i + 1) {
 			
 			rob.move(200);
-			rob.turn(50);
+			rob.turn(260);
 
 			for (int j = 0; j < 4; j = j + 1) {
-				rob.move(200);
-				rob.turn(90);
+				rob.move(100);
+				rob.turn(160);
 			}
 		}
 	}
