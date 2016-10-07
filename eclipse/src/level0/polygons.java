@@ -8,7 +8,7 @@ public class polygons {
 		int sides = 4;
 		float angle = getAngle(sides);
 		System.out.println(angle);
-
+        drawShape(500,300,300,4);
 		Robot rob = new Robot();
 		rob.setSpeed(300);
 		rob.penDown();
@@ -30,6 +30,11 @@ public class polygons {
 
 		}
 
+	}
+
+	private static void drawShape(int i, int j, int k, int l) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	public static float getAngle(int sides) {
