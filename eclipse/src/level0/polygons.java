@@ -30,11 +30,24 @@ public class polygons {
 
 		}
 
-	}
+	}  
 
 	private static void drawShape(int i, int j, int k, int l) {
 		// TODO Auto-generated method stub
-		
+		int sides = 4;
+		float angle = getAngle(sides);
+		System.out.println(angle);
+        drawShape(500,300,300,4);
+		Robot rob = new Robot();
+		rob.setSpeed(300);
+		rob.penDown();
+		for (int i = 0; i < sides; i = i + 1) {
+
+			rob.move(100);
+			rob.turn(180 - (int) angle);
+
+		}
+       
 	}
 
 	public static float getAngle(int sides) {
